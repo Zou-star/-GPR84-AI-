@@ -1,0 +1,107 @@
+[
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "sha256": "d21cdf0ec4ebe664e9992b515cbd7b34bcce886c00fa77fdcb0c65fb5a4a5540",
+    "files": 946,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "pandas",
+    "version": "2.3.3",
+    "sha256": "8e5fce8717ab59fc47da0b5074cbc9e0c6a086ff4958d0e1979286e432b334a7",
+    "files": 1560,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "scipy",
+    "version": "1.18.1",
+    "sha256": "e203bbfc5691e74035d10096391bdd9812e754e18842092fca95c90c344af81f",
+    "files": 1536,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.8.0",
+    "sha256": "064579c205d709fec6b7c88c0dc5640c5f87fcf0729f12d1fbb20cc08a9ab7a2",
+    "files": 1031,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "rdkit",
+    "version": "2026.3.6",
+    "sha256": "1c4ee11bac0a914253127e0f2c79acde6a8658c0a4934adb157449b9c032d56f",
+    "files": 948,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "xgboost",
+    "version": "3.4.1",
+    "sha256": "f61801ccff9f6f91bd9d659c274e3820ce71405cb6ec1836d0ed13583da7940c",
+    "files": 61,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "joblib",
+    "version": "1.6.0",
+    "sha256": "25a7c00dc2706dbca1e21d1f33189f37db5e8d489e8b4dc10af6424bce1c932f",
+    "files": 142,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "pyarrow",
+    "version": "22.0.0",
+    "sha256": "4f8e9d6fce871451b7d79f13925a944e5a34957dd56a92a1fef1f676bd6ed6ee",
+    "files": 755,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "threadpoolctl",
+    "version": "3.7.0",
+    "sha256": "ec23068c1494930dc2d7b3b33f1d58bbd64178e7f6669fcfa458c86394ccc8bc",
+    "files": 5,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "sha256": "dd2ad8943339cd673a0b6fdffb2c5136b295309ba6d83df45bdc77d911b8fa34",
+    "files": 25,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "pytz",
+    "version": "2026.4",
+    "sha256": "a9c33ed29d632d52573c48bb775c021bcfce3691117e1604bdcda8869c298350",
+    "files": 616,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "tzdata",
+    "version": "2026.4",
+    "sha256": "c18fd05bdab12b3333adc7545f541b4247b8751b851064945929f39477285849",
+    "files": 633,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "sha256": "960b3235e5b79f326cb26a12094e5be4152afafc3addbe8f2d3dc40650599d85",
+    "files": 6,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "sha256": "a861cc040a1910b7d44ad8c75f2729d77181dec61c5c2401f25d6a46daa20347",
+    "files": 121,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "sha256": "da4fdecbfe815e9f1904d274c80ec50072668db312da07a90c5f5b3661b59cc3",
+    "files": 7,
+    "origin": "local frozen installed distribution, repacked for independent installation QA"
+  }
+]

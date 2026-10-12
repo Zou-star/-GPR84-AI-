@@ -1,0 +1,7 @@
+﻿kind,fold,train_N,validation_N,train_neg,validation_neg,splits,seed,group_count
+publication,0,258,142,57,17,3,42,12
+publication,1,270,130,34,40,3,42,12
+publication,2,272,128,57,17,3,42,12
+scaffold,0,267,133,50,24,3,42,179
+scaffold,1,266,134,49,25,3,42,179
+scaffold,2,267,133,49,25,3,42,179

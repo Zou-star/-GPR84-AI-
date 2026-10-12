@@ -1,0 +1,94 @@
+{
+  "version": "GPR84-ML-v3-official-1",
+  "utc": "2026-10-03T15:24:17.214099+00:00",
+  "role": "official prediction model selected from existing development evidence",
+  "official_release": true,
+  "independent_acceptance": false,
+  "new_independent_evaluation_run": false,
+  "source_model_version": "GPR84-v3-competition-candidate-01",
+  "source_model_sha256": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f",
+  "configuration": "XGBoost_F4",
+  "training_cutoff": "2025-12-31",
+  "training_N": 400,
+  "training_positive": 326,
+  "training_negative": 74,
+  "fixed_seed": 42,
+  "training_member_hash": "7a2a22e35c3994d445585b9901f625ebb0fa6d7ea2af9d2aa027cb5ba07e319b",
+  "parameters": {
+    "n_estimators": 500,
+    "max_depth": 2,
+    "learning_rate": 0.1868656847816876,
+    "min_child_weight": 1.9832703720202467,
+    "subsample": 0.9567890138981593,
+    "colsample_bytree": 0.9513716387234693,
+    "reg_alpha": 0.0006093138532136777,
+    "reg_lambda": 8.416678730854747
+  },
+  "threshold": 0.046076174825429916,
+  "threshold_rule": "score >= threshold is positive; unchanged development OOF maximum MCC threshold",
+  "features": "MACCS 167 bits + ten descriptors; 177 columns; frozen training median imputation",
+  "standardization": "FragmentParent followed by Uncharger; stereochemistry retained",
+  "applicability_domain": "chiral binary ECFP4 maximum training Tanimoto >= 0.4 and all ten descriptors within training min/max; heuristic",
+  "score_interpretation": "ranking score; not a calibrated probability",
+  "selection_basis": "Publication-isolated development OOF evaluation; fixed model and threshold",
+  "development_publication_OOF": {
+    "N": 400,
+    "positive": 326,
+    "negative": 74,
+    "ROC_AUC": 0.9376347206101807,
+    "MCC": 0.7543762619168681,
+    "Balanced_Accuracy": 0.8212568396617477,
+    "TP": 324,
+    "TN": 48,
+    "FP": 26,
+    "FN": 2,
+    "threshold": 0.046076174825429916
+  },
+  "mean_rolling_AUC": 0.7395665865975677,
+  "window_auc": [
+    0.6234939759036144,
+    0.6730769230769231,
+    0.7551020408163265,
+    0.9065934065934065
+  ],
+  "metric_precision": "Original OOF bytes preserved; pandas float_precision=round_trip; threshold not changed",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "2.3.3",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.8.0",
+      "rdkit": "2026.3.6",
+      "xgboost": "3.4.1",
+      "joblib": "1.6.0"
+    }
+  },
+  "lock_type": "anonymous_portable_submission_lock; not the original official release lock",
+  "run_version": "gpr84-github-v1.0.0",
+  "original_official_lock_sha256": "8e9d2344039c5a0cf2cfc7ccdd002adce972f4c330381e4c98c331db01adc792",
+  "original_official_manifest_sha256": "7febe6f92aeb6c718338316578cf3bb858dc4f27ab23db42df48caab81735911",
+  "packaging_changes": [
+    "Reduced release to unchanged weights and frozen chemistry sources",
+    "Original immutable release remains outside ZIP; personal paths not included",
+    "Submission loader and package verification are separately maintained",
+    "Public v1.0.0: source-attributed screening results, portable reproduction and documented resource licenses"
+  ],
+  "critical_sha256": {
+    "config.json": "4eef7084b61c209e9f479bb0677534187a967dbe5cdf114210caf6c9fb11ea1c",
+    "feature_schema.json": "5855b12abea155d24b8a6efd3fe0e8bb5b65254b6ba4be1e91c20bd47290fccc",
+    "model.joblib": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f",
+    "runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runtime/common.py": "a40415db75177ee3366f08385f1d2bb51fc3e6489bbf070e4be78c637718e54a",
+    "runtime/features.py": "7566dc0bba710141f38030c2c5381796b23a06fe316f64b09d38f8191ecf584e"
+  },
+  "training_sources_sha256": {
+    "training_structures.csv": "6cdf6f665da77fd8b8441bd0346e981a3a4cf7424349aa8a4c95d00496e7588c",
+    "training_members.csv": "7a2a22e35c3994d445585b9901f625ebb0fa6d7ea2af9d2aa027cb5ba07e319b",
+    "publication_groups.csv": "5891c0e26a3e3cb1f41ea46c7bb7b334519f1bd6e070171a8f59ac03135d953b",
+    "development.npz": "80e138f4915a1a23d21049d2acbcf49fa8bd53ace8ff080bc166fcbd459175a8",
+    "development_publication_OOF.csv": "7b6c3ca677ca756835e4493a659617c18a61022e1b0b171f4a0645ea527f80bf"
+  },
+  "public_release_version": "1.0.0"
+}

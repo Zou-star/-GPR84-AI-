@@ -1,0 +1,99 @@
+{
+  "receptor": {
+    "target": "human GPR84",
+    "pdb_id": "9WIJ",
+    "source_url": "https://www.rcsb.org/structure/9WIJ",
+    "source_coordinate_unit": "angstrom",
+    "prepared_receptor_chains": [
+      "A"
+    ],
+    "prepared_receptor_atoms": 2766,
+    "protonation": "Saved historical prepared receptor; no new protonation calculation or inferred pH",
+    "vina_parameters_file": "data/evidence/structures/docking/vina_box.txt",
+    "vina_version": "1.2.7",
+    "seeds": [
+      42,
+      31415,
+      271828
+    ],
+    "exhaustiveness": 8,
+    "num_modes": 5
+  },
+  "candidates": [
+    {
+      "candidate_id": "GPR84-F01",
+      "library_id": "ZSW_9A1E8B920EC6",
+      "parent_full_inchikey": "WWKSEVPLFNRBCW-UHFFFAOYSA-N",
+      "structure_file": "data/evidence/structures/docking/candidates/ZSW_9A1E8B920EC6/best_pose.sdf",
+      "coordinate_unit": "angstrom",
+      "pose_formal_charge": 0,
+      "pose_smiles": "COc1cc2c(cc1OC)-c1cc(=Nc3ccc4c(c3)OCCO4)[nH]c(=O)n1CC2",
+      "pose_connectivity_key": "WWKSEVPLFNRBCW",
+      "hydrogens_explicit": 0,
+      "receptor_file": "data/evidence/structures/docking/9WIJ.cif",
+      "prepared_receptor_file": "data/evidence/structures/docking/9WIJ_GPR84_receptor.pdbqt",
+      "ligand_chain": "not applicable to separate SDF; existing docking coordinates retained",
+      "microstate_note": "Saved docking state; may differ in charge/tautomer from the standardized parent; no new preparation"
+    },
+    {
+      "candidate_id": "GPR84-F02",
+      "library_id": "ZSW_D26A2708DAE7",
+      "parent_full_inchikey": "BFMCRDMUZOAUJR-UHFFFAOYSA-N",
+      "structure_file": "data/evidence/structures/docking/candidates/ZSW_D26A2708DAE7/best_pose.sdf",
+      "coordinate_unit": "angstrom",
+      "pose_formal_charge": 1,
+      "pose_smiles": "COc1cc2c(cc1OC)-c1cc(OCC[NH+]3CCCCC3)nc(=O)n1CC2",
+      "pose_connectivity_key": "BFMCRDMUZOAUJR",
+      "hydrogens_explicit": 0,
+      "receptor_file": "data/evidence/structures/docking/9WIJ.cif",
+      "prepared_receptor_file": "data/evidence/structures/docking/9WIJ_GPR84_receptor.pdbqt",
+      "ligand_chain": "not applicable to separate SDF; existing docking coordinates retained",
+      "microstate_note": "Saved docking state; may differ in charge/tautomer from the standardized parent; no new preparation"
+    },
+    {
+      "candidate_id": "GPR84-F03",
+      "library_id": "ZSW_76B5185FE874",
+      "parent_full_inchikey": "GICFNTVMIFASKC-UHFFFAOYSA-N",
+      "structure_file": "data/evidence/structures/docking/candidates/ZSW_76B5185FE874/best_pose.sdf",
+      "coordinate_unit": "angstrom",
+      "pose_formal_charge": 0,
+      "pose_smiles": "COc1ccc(CCN=c2cc3n(c(=O)[nH]2)CCc2cc(OC)c(OC)cc2-3)cc1",
+      "pose_connectivity_key": "GICFNTVMIFASKC",
+      "hydrogens_explicit": 0,
+      "receptor_file": "data/evidence/structures/docking/9WIJ.cif",
+      "prepared_receptor_file": "data/evidence/structures/docking/9WIJ_GPR84_receptor.pdbqt",
+      "ligand_chain": "not applicable to separate SDF; existing docking coordinates retained",
+      "microstate_note": "Saved docking state; may differ in charge/tautomer from the standardized parent; no new preparation"
+    },
+    {
+      "candidate_id": "GPR84-F04",
+      "library_id": "ZSW_79351A0BEFED",
+      "parent_full_inchikey": "ZIQIOAUJYSAZBR-UHFFFAOYSA-N",
+      "structure_file": "data/evidence/structures/docking/candidates/ZSW_79351A0BEFED/best_pose.sdf",
+      "coordinate_unit": "angstrom",
+      "pose_formal_charge": 0,
+      "pose_smiles": "COc1cc2c(cc1OC)-c1cc(Oc3ccc4cccnc4c3)nc(=O)n1CC2",
+      "pose_connectivity_key": "ZIQIOAUJYSAZBR",
+      "hydrogens_explicit": 0,
+      "receptor_file": "data/evidence/structures/docking/9WIJ.cif",
+      "prepared_receptor_file": "data/evidence/structures/docking/9WIJ_GPR84_receptor.pdbqt",
+      "ligand_chain": "not applicable to separate SDF; existing docking coordinates retained",
+      "microstate_note": "Saved docking state; may differ in charge/tautomer from the standardized parent; no new preparation"
+    },
+    {
+      "candidate_id": "GPR84-F05",
+      "library_id": "ZSW_97B5CCE95CBB",
+      "parent_full_inchikey": "DCXNXORIJUQPED-UHFFFAOYSA-N",
+      "structure_file": "data/evidence/structures/docking/candidates/ZSW_97B5CCE95CBB/best_pose.sdf",
+      "coordinate_unit": "angstrom",
+      "pose_formal_charge": 0,
+      "pose_smiles": "COc1cc2c(cc1OC)-c1cc(N3CCN(c4ccc(F)cc4)CC3)nc(=O)n1CC2",
+      "pose_connectivity_key": "DCXNXORIJUQPED",
+      "hydrogens_explicit": 0,
+      "receptor_file": "data/evidence/structures/docking/9WIJ.cif",
+      "prepared_receptor_file": "data/evidence/structures/docking/9WIJ_GPR84_receptor.pdbqt",
+      "ligand_chain": "not applicable to separate SDF; existing docking coordinates retained",
+      "microstate_note": "Saved docking state; may differ in charge/tautomer from the standardized parent; no new preparation"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+Prepared rolling 2020 source exclusion 18
+Prepared rolling 2022 source exclusion 63
+Prepared rolling 2023 source exclusion 79
+Prepared rolling 2024 source exclusion 79
+ECFP4_full trials 12 mean rolling AUC 0.685293 publication OOF 0.866813
+ECFP4_downweight trials 12 mean rolling AUC 0.695212 publication OOF 0.864699
+ECFP4_exclude trials 12 mean rolling AUC 0.696542 publication OOF 0.833693
+ECFP6_full trials 12 mean rolling AUC 0.680287 publication OOF 0.870337
+ECFP6_downweight trials 12 mean rolling AUC 0.698075 publication OOF 0.866191
+ECFP6_exclude trials 12 mean rolling AUC 0.701053 publication OOF 0.794893
+MACCS_full trials 12 mean rolling AUC 0.714605 publication OOF 0.812655
+MACCS_downweight trials 12 mean rolling AUC 0.712654 publication OOF 0.810334
+MACCS_exclude trials 12 mean rolling AUC 0.729798 publication OOF 0.809961
+COUNT4_full trials 12 mean rolling AUC 0.71423 publication OOF 0.54539
+COUNT4_downweight trials 12 mean rolling AUC 0.704184 publication OOF 0.75286
+COUNT4_exclude trials 12 mean rolling AUC 0.694526 publication OOF 0.766996
+COUNT6_full trials 12 mean rolling AUC 0.701491 publication OOF 0.553971
+COUNT6_downweight trials 12 mean rolling AUC 0.699808 publication OOF 0.75543
+COUNT6_exclude trials 12 mean rolling AUC 0.704096 publication OOF 0.78055
+RDKIT_full trials 12 mean rolling AUC 0.705189 publication OOF 0.562013
+RDKIT_downweight trials 12 mean rolling AUC 0.709798 publication OOF 0.758332
+RDKIT_exclude trials 12 mean rolling AUC 0.704045 publication OOF 0.840532
+TORSION_full trials 12 mean rolling AUC 0.682567 publication OOF 0.56106
+TORSION_downweight trials 12 mean rolling AUC 0.688892 publication OOF 0.759493
+TORSION_exclude trials 12 mean rolling AUC 0.692338 publication OOF 0.836263
+FEATURE_MORGAN_full trials 12 mean rolling AUC 0.665696 publication OOF 0.558738
+FEATURE_MORGAN_downweight trials 12 mean rolling AUC 0.676471 publication OOF 0.869217
+FEATURE_MORGAN_exclude trials 12 mean rolling AUC 0.688494 publication OOF 0.823578
+BLEND_full trials 12 mean rolling AUC 0.69339 publication OOF 0.560686
+BLEND_downweight trials 12 mean rolling AUC 0.695516 publication OOF 0.871414
+BLEND_exclude trials 12 mean rolling AUC 0.712495 publication OOF 0.833941
+COMPLETE 324 real trials

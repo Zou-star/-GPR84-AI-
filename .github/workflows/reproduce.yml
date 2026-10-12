@@ -1,0 +1,29 @@
+name: Reproduce frozen model
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_screen:
+        description: Recompute all 100000 structures
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python train.py --check-only
+      - run: python screen.py --input data/examples/smiles.csv --output results/example_scores.csv
+      - run: python demo.py --output results/ci_demo
+      - run: python verify_submission.py --output results/ci_verification --recompute-development
+      - if: inputs.full_screen == true
+        run: python predict.py --output results/ci_full --workers 2
+      - if: inputs.full_screen == true
+        run: python verify_submission.py --results-dir results/ci_full --output results/ci_full_verification

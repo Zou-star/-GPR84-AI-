@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-03T08:51:48.797624+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "rdkit": "2026.3.6",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "gensim": "4.4.0",
+    "optuna": "5.0.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "python-docx": "1.2.0",
+    "PyMuPDF": "1.28.2",
+    "pypdf": "6.19.0",
+    "narwhals": "2.26.0",
+    "smart-open": "8.0.2",
+    "wrapt": "2.5.0",
+    "six": "1.17.0",
+    "plotly": "7.1.0",
+    "graphviz": "0.21"
+  },
+  "environment": "v3 virtual environment with read-only existing dependency paths; new dependencies exclusively in v3/.deps",
+  "paid_compute": false,
+  "submission_note": "Original package executable path removed; dependency versions unchanged"
+}

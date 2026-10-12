@@ -1,0 +1,15 @@
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.8.0
+rdkit==2026.3.6
+xgboost==3.4.1
+joblib==1.6.0
+pyarrow==22.0.0
+threadpoolctl==3.7.0
+python-dateutil==2.9.0.post0
+pytz==2026.4
+tzdata==2026.4
+six==1.17.0
+Pillow==12.3.0
+cloudpickle==3.1.2

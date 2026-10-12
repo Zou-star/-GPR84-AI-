@@ -1,0 +1,159 @@
+{
+  "status": "PASSED",
+  "started_at_utc": "2026-10-12T14:35:44.962218+00:00",
+  "completed_at_utc": "2026-10-12T14:43:50.852242+00:00",
+  "steps": [
+    {
+      "step": "environment",
+      "returncode": 0,
+      "elapsed_seconds": 0.7425962000015716,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "train_check",
+      "returncode": 0,
+      "elapsed_seconds": 33.473259600003075,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "training_reproduction",
+      "returncode": 0,
+      "elapsed_seconds": 16.969140799999877,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "demo",
+      "returncode": 0,
+      "elapsed_seconds": 25.199668199998996,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "full_screen",
+      "returncode": 0,
+      "elapsed_seconds": 131.85273729999972,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "verification",
+      "returncode": 0,
+      "elapsed_seconds": 29.251750499999616,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "prepare_from_results",
+      "returncode": 0,
+      "elapsed_seconds": 2.0482338999972853,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "extended_checks",
+      "returncode": 0,
+      "elapsed_seconds": 4.20492099999683,
+      "invoked_from_separate_working_directory": true
+    },
+    {
+      "step": "prepare_original_snapshot",
+      "returncode": 0,
+      "elapsed_seconds": 8.580054999998538,
+      "invoked_from_separate_working_directory": true
+    }
+  ],
+  "independent_copy": true,
+  "runtime_source": "独立环境使用锁定版本的本地冻结依赖安装包；全部依赖安装在独立环境前缀内",
+  "online_installation_completed": false,
+  "separate_working_directory": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "2.3.3",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.8.0",
+      "rdkit": "2026.3.6",
+      "xgboost": "3.4.1",
+      "joblib": "1.6.0",
+      "pyarrow": "22.0.0",
+      "threadpoolctl": "3.7.0",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.4",
+      "tzdata": "2026.4",
+      "six": "1.17.0",
+      "Pillow": "12.3.0",
+      "cloudpickle": "3.1.2"
+    },
+    "all_distributions_installed_under_isolated_prefix": true,
+    "external_dependency_path_files": 0
+  },
+  "verification": {
+    "status": "PASSED",
+    "model_version": "GPR84-ML-v3-official-1",
+    "run_version": "gpr84-github-v1.0.0",
+    "model_sha256": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f",
+    "immutable_files_verified": 106,
+    "training_counts": {
+      "N": 400,
+      "positive": 326,
+      "negative": 74
+    },
+    "fresh_100k_scores_exactly_match_reference": true,
+    "Top5_identity_order_and_values_match": true,
+    "input_edge_cases_passed": true,
+    "CLI_blank_invalid_duplicate_chunk_order_passed": true,
+    "protected_output_paths_rejected": true,
+    "threshold_equality_positive": true,
+    "tampered_model_rejected": true,
+    "development_recomputed_metrics": {
+      "ROC_AUC": 0.9376347206101807,
+      "MCC": 0.7543762619168681,
+      "Balanced_Accuracy": 0.8212568396617477
+    },
+    "full_2000x2_bootstrap_recomputed": true,
+    "official_weights_changed": false,
+    "results_location": "project/results/reproduction",
+    "elapsed_seconds": 25.611545699997805,
+    "independent_acceptance": false
+  },
+  "extended_checks": {
+    "library_count": 100000,
+    "prepared_input_mode": "locally_prepared_screening_result_structures",
+    "changed_identity_order_and_count_rejected": true,
+    "empty_input_passed": true,
+    "demo_full_and_original_Top5_match": true,
+    "candidate_numeric_fields_match_original": true,
+    "official_weight_unchanged": true,
+    "fixed_parameter_training": {
+      "seed": 42,
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 2,
+        "learning_rate": 0.1868656847816876,
+        "min_child_weight": 1.9832703720202467,
+        "subsample": 0.9567890138981593,
+        "colsample_bytree": 0.9513716387234693,
+        "reg_alpha": 0.0006093138532136777,
+        "reg_lambda": 8.416678730854747,
+        "scale_pos_weight": 0.22699386503067484,
+        "n_jobs": 2,
+        "random_state": 42,
+        "tree_method": "hist",
+        "eval_metric": "logloss"
+      },
+      "N": 400,
+      "positive": 326,
+      "negative": 74,
+      "model_sha256": "a4afa1db30e52d5e4fdca29ff94772577efd0924dd3b74f90daa24d34493c1ac",
+      "max_training_score_difference": 0.0,
+      "training_scores_bitwise_equal": true,
+      "elapsed_seconds": 13.345890000000509,
+      "official_model_replaced": false,
+      "validation_rerun": false,
+      "scope": "fixed-parameter reproduction only; not new model selection or validation"
+    },
+    "original_snapshot_import": {
+      "rows": 100000,
+      "input_mode": "locally_imported_original_snapshot",
+      "original_snapshot_hash_verified": true
+    }
+  },
+  "public_release_version": "1.0.0"
+}

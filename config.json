@@ -1,0 +1,20 @@
+{
+  "project": "智靶药研——面向缺血性脑卒中的GPR84靶向小分子AI虚拟筛选平台",
+  "model_version": "GPR84-ML-v3-official-1",
+  "run_version": "gpr84-github-v1.0.0",
+  "track": "赛道3：离子通道、GPCR等药靶的小分子药物虚拟筛选",
+  "track_confirmation_pending": false,
+  "seed": 42,
+  "primary_count": 5,
+  "ranking_weights": {
+    "AI": 0.3,
+    "docking": 0.25,
+    "ADMET_BBB": 0.25,
+    "novelty": 0.1,
+    "availability": 0.1
+  },
+  "global_final_top5_confirmed": false,
+  "downstream_mode": "offline_exact_identity_evidence_reuse",
+  "stage": "public_release",
+  "release_version": "1.0.0"
+}

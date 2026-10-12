@@ -1,0 +1,62 @@
+{
+  "admet_rows": 300,
+  "docking_candidates": 60,
+  "missing_mandatory": 0,
+  "verified_cache_hits": 101,
+  "new_predictions": 199,
+  "worklist_diversity_relaxation": [
+    {
+      "tanimoto_cutoff": 0.55,
+      "scaffold_cap": 1,
+      "ood_cap": 1,
+      "low_bbb_cap": 12,
+      "added": 18
+    },
+    {
+      "tanimoto_cutoff": 0.65,
+      "scaffold_cap": 1,
+      "ood_cap": 1,
+      "low_bbb_cap": 12,
+      "added": 10
+    },
+    {
+      "tanimoto_cutoff": 0.75,
+      "scaffold_cap": 1,
+      "ood_cap": 1,
+      "low_bbb_cap": 12,
+      "added": 10
+    },
+    {
+      "tanimoto_cutoff": 0.8,
+      "scaffold_cap": 2,
+      "ood_cap": 12,
+      "low_bbb_cap": 12,
+      "added": 16
+    },
+    {
+      "tanimoto_cutoff": 0.9,
+      "scaffold_cap": 3,
+      "ood_cap": 12,
+      "low_bbb_cap": 12,
+      "added": 5
+    },
+    {
+      "tanimoto_cutoff": 0.99,
+      "scaffold_cap": 300,
+      "ood_cap": 300,
+      "low_bbb_cap": 300,
+      "added": 1
+    }
+  ],
+  "legacy_cache_not_reused_reason": "legacy predictions lack predictor checkpoint SHA256 signatures",
+  "endpoint_columns": {
+    "BBB": "BBB_Martins",
+    "Caco2": "Caco2_Wang",
+    "HIA": "HIA_Hou",
+    "Bioavailability": "Bioavailability_Ma",
+    "Solubility": "Solubility_AqSolDB",
+    "Ames": "AMES",
+    "hERG": "hERG",
+    "DILI": "DILI"
+  }
+}

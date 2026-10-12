@@ -1,0 +1,5 @@
+﻿cutoff,training_N,training_negative,validation_N,validation_negative,valid,reason
+2020,202,41,194,28,True,
+2022,305,53,94,16,True,
+2023,336,57,61,12,True,
+2024,363,62,33,7,True,

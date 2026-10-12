@@ -1,0 +1,23 @@
+{
+  "version": "GPR84-ML-v3",
+  "development_cutoff": "2025-12-31",
+  "search_as_of": "2026-10-03",
+  "positive_nm_max": 1000,
+  "negative_nm_min": 10000,
+  "independent_minimum": {"structures": 60, "negatives": 15, "publications": 3},
+  "rolling_cutoffs": [2020, 2022, 2023, 2024],
+  "rolling_min_validation": 20,
+  "rolling_min_negatives": 5,
+  "seeds": [42, 7, 2026, 1337, 31415],
+  "base_trials": 50,
+  "finalist_trials": 200,
+  "finalist_count": 6,
+  "base_search_total": 3150,
+  "auc_tie_tolerance": 0.01,
+  "bootstrap_replicates": 2000,
+  "selection": "mean valid rolling AUC; within 0.01 publication OOF MCC, rolling SD, complexity",
+  "validation_access": "eligibility counts and integrity only until MODEL_LOCK; one evaluation thereafter",
+  "features": ["F1", "F2", "F3", "F4", "F5", "F6"],
+  "classifiers": ["LR", "SVM", "RF", "ExtraTrees", "XGBoost", "LightGBM", "CatBoost"],
+  "tanimoto_features": ["ECFP4", "ECFP6", "MACCS"]
+}

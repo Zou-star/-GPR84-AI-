@@ -1,0 +1,5 @@
+# Preserve frozen hashes through Windows Git add/checkout and GitHub downloads.
+* -text
+*.joblib binary
+*.parquet binary
+*.npz binary

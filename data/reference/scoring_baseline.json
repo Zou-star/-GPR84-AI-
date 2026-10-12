@@ -1,0 +1,28 @@
+{
+  "scope": "Existing official full-library predictions; numerical regression checks only",
+  "N": 100000,
+  "library_id_order_sha256": "9e4d09ce316570b99620e467af78db5b611d0d8363abbf48d1c87ed78da6167d",
+  "columns": {
+    "ranking_score": {
+      "dtype": "float64",
+      "sha256": "8f1e738a5dff5374096090e9a4b55284c08959520a7364c3acef036b63e9c86b"
+    },
+    "max_training_similarity": {
+      "dtype": "float64",
+      "sha256": "c421953e4cfb4b4677c35c2ce40d30491611efc2a28c9c465d120d4ee6056616"
+    },
+    "applicability_domain": {
+      "dtype": "bool",
+      "sha256": "3273efffa14e79d0390f8e54b894df5d2780197841e0c93942bbd2f719943b42"
+    },
+    "fixed_threshold_class": {
+      "dtype": "int64",
+      "sha256": "86468d3d9cccbcafa6e47da45a682b039386ef99b53e1a4c8d302e278b25a8d1"
+    },
+    "eligible_for_ranking": {
+      "dtype": "bool",
+      "sha256": "30a1210a47bc020e592398e7a2e0808d2c5146793f5e2f8bb67c3a9768a5e08e"
+    }
+  },
+  "original_parquet_sha256": "1fc14283d8b06f3197e77a114a977723ef71e77af3fdf56809c55bffe0ce87db"
+}

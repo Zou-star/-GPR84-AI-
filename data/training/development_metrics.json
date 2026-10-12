@@ -1,0 +1,95 @@
+{
+  "evaluation_type": "development selection estimate; post-selection bootstrap conditional on saved predictions",
+  "independent_acceptance": false,
+  "model_refitted": false,
+  "threshold_refitted": false,
+  "point_estimates": {
+    "N": 400,
+    "positive": 326,
+    "negative": 74,
+    "ROC_AUC": 0.9376347206101807,
+    "MCC": 0.7543762619168681,
+    "Balanced_Accuracy": 0.8212568396617477,
+    "TP": 324,
+    "TN": 48,
+    "FP": 26,
+    "FN": 2,
+    "threshold": 0.046076174825429916
+  },
+  "bootstrap": {
+    "stratified_compound": {
+      "seed": 42,
+      "attempted": 2000,
+      "valid": 2000,
+      "excluded_single_class_draws": 0,
+      "percentile_95_CI": {
+        "ROC_AUC": [
+          0.9066272177085061,
+          0.9648083858398275
+        ],
+        "MCC": [
+          0.6758805240146374,
+          0.8282973703332739
+        ],
+        "Balanced_Accuracy": [
+          0.7672027856076936,
+          0.8716216216216216
+        ]
+      }
+    },
+    "publication_connected_group": {
+      "seed": 42,
+      "attempted": 2000,
+      "valid": 2000,
+      "excluded_single_class_draws": 0,
+      "percentile_95_CI": {
+        "ROC_AUC": [
+          0.8274181573455829,
+          0.9829608647984676
+        ],
+        "MCC": [
+          0.45794263395316226,
+          0.8637399458206464
+        ],
+        "Balanced_Accuracy": [
+          0.627906976744186,
+          0.9053109659461792
+        ]
+      }
+    }
+  },
+  "publication_grouping": {
+    "units": 12,
+    "definition": "Saved connected components of all associated publication IDs and connectivity keys",
+    "source": "publication_groups.csv; no splitting of connected publication units"
+  },
+  "limitations": "Intervals describe resampling uncertainty of saved development OOF scores. They do not account for hyperparameter/model/threshold selection optimism and are not fresh independent validation.",
+  "precision_audit": {
+    "policy": "Original CSV bytes + pandas float_precision=round_trip + float64 comparison >= threshold",
+    "threshold_changed": false,
+    "changed_classifications_vs_legacy_candidate_export": 1,
+    "legacy_metrics": {
+      "N": 400,
+      "positive": 326,
+      "negative": 74,
+      "ROC_AUC": 0.9376347206101807,
+      "MCC": 0.7444419972246523,
+      "Balanced_Accuracy": 0.8197230973304593,
+      "TP": 323,
+      "TN": 48,
+      "FP": 26,
+      "FN": 3,
+      "threshold": 0.046076174825429916
+    },
+    "boundary_rows": [
+      {
+        "compound_id": "V3_CCAOLTJOLDULMU-UHFFFAOYSA-N",
+        "original_score": 0.046076174825429916,
+        "legacy_export_score": 0.0460761748254299,
+        "threshold": 0.046076174825429916,
+        "class_from_original": 1,
+        "class_from_legacy": 0
+      }
+    ]
+  }
+}

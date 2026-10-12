@@ -1,0 +1,15 @@
+{
+  "rows": 100000,
+  "library_id_order_sha256": "9e4d09ce316570b99620e467af78db5b611d0d8363abbf48d1c87ed78da6167d",
+  "input_smiles_order_sha256": "2d2ad52fcdfb96a3f09a0b62e28396368d847b9c07659a9221b4e837dff08c05",
+  "original_snapshot_sha256": "6075c5c3db76203a29ac39e05c2a37d28e117d9a45e6212a729ddcd2302fc2e5",
+  "source": "ZINC SmallWorld In-Stock-25Q2 / deterministic 100,000-structure selection",
+  "access_date": "2026-09-22",
+  "official_source_urls": [
+    "https://sw.docking.org",
+    "https://zinc20.docking.org/tranches/home/"
+  ],
+  "terms_url": "https://wiki.docking.org/index.php/Terms_And_Conditions",
+  "default_input_mode": "structure columns of the published project screening results; all scores are recomputed",
+  "raw_snapshot_distributed": false
+}

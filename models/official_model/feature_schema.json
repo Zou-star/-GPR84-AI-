@@ -1,0 +1,23 @@
+{
+  "rdkit": "2026.03.6",
+  "descriptors": [
+    "molecular_weight",
+    "clogp",
+    "tpsa",
+    "hbd",
+    "hba",
+    "rotatable_bonds",
+    "ring_count",
+    "fraction_csp3",
+    "formal_charge",
+    "heavy_atom_count"
+  ],
+  "F1": "nonchiral ECFP4 bits 2048 + 10 descriptors",
+  "F2": "chiral ECFP4 counts 2048 + 10 descriptors",
+  "F3": "chiral ECFP6 counts 2048 + 10 descriptors",
+  "F4": "MACCS 167 bits + 10 descriptors",
+  "F5": "chiral hashed AtomPair counts 2048 + 10 descriptors",
+  "F6": "chiral ECFP4 counts + ECFP6 counts + MACCS + 10 descriptors",
+  "Tanimoto": "chiral binary ECFP4/ECFP6 or MACCS without descriptors; pairwise intersection / union",
+  "standardization": "FragmentParent and Uncharger; stereochemistry preserved unless primary source explicitly reports racemic mixture"
+}

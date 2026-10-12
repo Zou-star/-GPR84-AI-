@@ -1,0 +1,357 @@
+{
+  "passed": true,
+  "rmsd_threshold_A": 2.5,
+  "original_threshold_A": 2.0,
+  "passes_original_threshold": true,
+  "posthoc_threshold_change": true,
+  "min_rmsd_A": 1.102082412007895,
+  "chosen_attempt": 1,
+  "native_atom_mapping_rmsd_A": 0.0,
+  "all_seeds_top1_pass_original_2A": true,
+  "correction": "Meeko SMILES atom indices mapped to the REMARK SMILES graph; no ligand superposition before RMSD",
+  "historical_reported_min_rmsd_A_invalid": 2.2271359736891503,
+  "cached_redocking_poses_reused": true,
+  "seeds": [
+    42,
+    31415,
+    271828
+  ],
+  "vina_version": "1.2.7",
+  "source_structure_sha256": "724a4f02a24847395e06a9fca5a709ef1038b7a02c22c71e2a8b0cfe7fe031a4",
+  "box_center_A": [
+    139.816,
+    131.732,
+    192.184
+  ],
+  "box_size_A": [
+    19.901,
+    24.189,
+    18.0
+  ],
+  "candidate_count": 60,
+  "complete": 60,
+  "cache_audit": [
+    {
+      "library_id": "ZSW_D26A2708DAE7",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_109D22EED4BE",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_5908F2C907B0",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_B58F3B5E88A9",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_15E756329173",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_E1DCA6A4A151",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_97B5CCE95CBB",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZGLD_3AC145BF576D",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_249221201896",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_CEF17A247921",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZGLD_1DE91BF3DF34",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_FD60B44656DF",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZGLD_28200BC09E12",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_8C697A4C4DF9",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_050BEC029199",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_10E3149B19A0",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_6D2C1A3BAE9D",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_9A1E8B920EC6",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_76B5185FE874",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_472198B82503",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_3749F8C62793",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_79351A0BEFED",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_2B2DB32BF3C2",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_8B1EF0FC0400",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_EB3DE24F2964",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_763178F140C9",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_9C1BCC4E5DBA",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_BD1F57FE50C1",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_EF28E9A04335",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_ACC2D60CCE8A",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZGLD_B7E9653BB74A",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_724747912431",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_F077372817C0",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZGLD_DD7088FE4C5E",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_A74D91EEC899",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_46E44413CF0F",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_A1905F24C25E",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_6E1D2690AAA8",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_9D28F76D1BB9",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    },
+    {
+      "library_id": "ZSW_FC4E37571678",
+      "legacy_signature_match": false,
+      "saved_microstate_meeko_repreparation_exact": true,
+      "reused": true,
+      "legacy_neutral_fallback": false,
+      "new_preparation_signature_match": true
+    }
+  ],
+  "geometry_pass_count": 60,
+  "structure_clusters": 25
+}

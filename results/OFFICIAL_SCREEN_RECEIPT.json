@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE",
+  "model_version": "GPR84-ML-v3-official-1",
+  "model_sha256": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f",
+  "library_input": {
+    "input_mode": "published_screening_result_structures",
+    "input_file": "results/official_100k_scores.parquet",
+    "input_file_sha256": "1fc14283d8b06f3197e77a114a977723ef71e77af3fdf56809c55bffe0ce87db",
+    "input_columns_used": [
+      "library_id",
+      "SMILES"
+    ],
+    "saved_scores_used_for_inference": false
+  },
+  "rows": 100000,
+  "valid_rows": 100000,
+  "duplicates_full_inchikey": 0,
+  "duplicates_connectivity": 0,
+  "positive_at_fixed_threshold": 61232,
+  "applicability_domain_rows": 162,
+  "restricted_excluded": 12,
+  "training_overlap": 0,
+  "eligible_ranking_rows": 99988,
+  "interface_score_check_n": 24,
+  "interface_max_abs_score_delta": 0.0,
+  "interface_similarity_max_abs_delta": 0.0,
+  "admet_evidence_available_in_top1000": 32,
+  "docking_evidence_available_in_top1000": 19,
+  "elapsed_seconds": 104.10849880000023,
+  "training_performed": false,
+  "old_results_overwritten": false,
+  "wet_labels_added": false
+}

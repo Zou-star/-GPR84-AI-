@@ -1,0 +1,18 @@
+{
+  "encoding": "UTF-8 with BOM",
+  "float_precision": "17 significant digits; read with float_precision=round_trip",
+  "track": "赛道3：离子通道、GPCR等药靶的小分子药物虚拟筛选",
+  "candidate_count": 5,
+  "SMILES": "canonical isomeric parent structure",
+  "ranking_score": "uncalibrated classification ranking score; no affinity unit",
+  "fixed_threshold_class": "1 when score >= 0.046076174825429916; otherwise 0",
+  "BBB_probability": "ADMET-AI BBB_Martins endpoint prediction; not measured brain penetration",
+  "DILI_hERG_AMES": "ADMET-AI predicted adverse endpoint scores; larger indicates more predicted risk",
+  "Vina_best_kcal_mol": "Vina scoring function output, kcal/mol; not experimentally measured binding free energy",
+  "structure_file": "path relative to project; SDF atom coordinates in angstrom; docking microstate may differ in charge/tautomer from parent",
+  "receptor_file": "RCSB 9WIJ mmCIF; prepared chain/atom information retained in associated receptor files",
+  "missing_value": "blank; no imputation of missing pharmacology or downstream evidence",
+  "candidate_status": "COMPUTATIONAL_EVIDENCE_INTEGRATED_CANDIDATE: ranked computational candidate from the complete-evidence subset",
+  "independent_acceptance": "Frozen model independent evaluation flag; separate from candidate cell-experiment status",
+  "wet_experiment_scope": "Computational screening, evidence integration and result verification"
+}

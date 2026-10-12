@@ -1,0 +1,47 @@
+{
+  "configuration": "XGBoost_F4",
+  "model": "XGBoost",
+  "feature": "F4",
+  "complete_trials": 200,
+  "mean_rolling_AUC": 0.7395665865975677,
+  "rolling_SD": 0.10727655294157251,
+  "window_auc": [
+    0.6234939759036144,
+    0.6730769230769231,
+    0.7551020408163265,
+    0.9065934065934065
+  ],
+  "parameters": {
+    "n_estimators": 500,
+    "max_depth": 2,
+    "learning_rate": 0.1868656847816876,
+    "min_child_weight": 1.9832703720202467,
+    "subsample": 0.9567890138981593,
+    "colsample_bytree": 0.9513716387234693,
+    "reg_alpha": 0.0006093138532136777,
+    "reg_lambda": 8.416678730854747
+  },
+  "publication_OOF": {
+    "N": 400,
+    "positive": 326,
+    "negative": 74,
+    "ROC_AUC": 0.9376347206101807,
+    "MCC": 0.7543762619168681,
+    "Balanced_Accuracy": 0.8212568396617477,
+    "AP": 0.9833103061350278,
+    "TP": 324,
+    "TN": 48,
+    "FP": 26,
+    "FN": 2,
+    "threshold": 0.046076174825429916
+  },
+  "threshold": 0.046076174825429916,
+  "estimate_type": "development selection estimate, not independent validation",
+  "search_signature": {
+    "data_freeze": "4651261db5e5a7bc44c374a15265eb0cd5e62e4fd27f54da72ea70bea48a714a",
+    "features": "5855b12abea155d24b8a6efd3fe0e8bb5b65254b6ba4be1e91c20bd47290fccc",
+    "model_code": "4a0271e40652c5e56fd33b2243f304d9d2a033c39fdc7fc68165b5b2c0366b43",
+    "search_code": "6095427e8515fd788384299b40e1623defff4f89a415e5e1cae2ba38d031a482",
+    "selection": "mean valid rolling AUC; within 0.01 publication OOF MCC, rolling SD, complexity"
+  }
+}

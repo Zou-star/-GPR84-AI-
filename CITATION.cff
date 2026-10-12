@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "如使用本项目代码、模型或计算结果，请引用该软件版本，并引用实际使用的原始数据来源。"
+type: software
+title: "智靶药研 GPR84 小分子 AI 虚拟筛选"
+authors:
+  - name: "智靶药研项目团队"
+version: 1.0.0
+date-released: "2026-10-12"
+license: MIT
+abstract: "公开 GPR84 小分子筛选的冻结模型、训练与推理代码、数据来源、计算证据和结果复核流程。"
+keywords:
+  - GPR84
+  - virtual screening
+  - XGBoost
+  - reproducibility

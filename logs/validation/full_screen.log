@@ -1,0 +1,15 @@
+INPUT results/official_100k_scores.parquet rows 100000 columns ['library_id', 'isomeric_smiles']
+PROGRESS 10000 elapsed_seconds 16.0
+PROGRESS 20000 elapsed_seconds 23.5
+PROGRESS 30000 elapsed_seconds 34.6
+PROGRESS 40000 elapsed_seconds 42.3
+PROGRESS 50000 elapsed_seconds 53.1
+PROGRESS 60000 elapsed_seconds 60.9
+PROGRESS 70000 elapsed_seconds 72.2
+PROGRESS 80000 elapsed_seconds 79.9
+PROGRESS 90000 elapsed_seconds 91.4
+PROGRESS 100000 elapsed_seconds 99.6
+{"status": "COMPLETE", "model_version": "GPR84-ML-v3-official-1", "model_sha256": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f", "library_input": {"input_mode": "published_screening_result_structures", "input_file": "results/official_100k_scores.parquet", "input_file_sha256": "1fc14283d8b06f3197e77a114a977723ef71e77af3fdf56809c55bffe0ce87db", "input_columns_used": ["library_id", "SMILES"], "saved_scores_used_for_inference": false}, "rows": 100000, "valid_rows": 100000, "duplicates_full_inchikey": 0, "duplicates_connectivity": 0, "positive_at_fixed_threshold": 61232, "applicability_domain_rows": 162, "restricted_excluded": 12, "training_overlap": 0, "eligible_ranking_rows": 99988, "interface_score_check_n": 24, "interface_max_abs_score_delta": 0.0, "interface_similarity_max_abs_delta": 0.0, "admet_evidence_available_in_top1000": 32, "docking_evidence_available_in_top1000": 19, "elapsed_seconds": 104.10849880000023, "training_performed": false, "old_results_overwritten": false, "wet_labels_added": false}
+{"model_version": "GPR84-ML-v3-official-1", "qualified_top1000": 1000, "basic_property_pass": 98531, "structural_alert_evaluated": 2770, "ADMET_available_in_current_top1000": 55, "docking_available_in_current_top1000": 21, "ADMET_missing_current_top1000": 945, "ADMET_available_in_current_top300": 31, "full_gate_evidence_covered": 11, "provisional_candidate_count": 5, "candidate_codes": ["GPR84-F01", "GPR84-F02", "GPR84-F03", "GPR84-F04", "GPR84-F05"], "candidate_library_ids": ["ZSW_9A1E8B920EC6", "ZSW_D26A2708DAE7", "ZSW_76B5185FE874", "ZSW_79351A0BEFED", "ZSW_97B5CCE95CBB"], "candidate_scope": "Complete-evidence subset intersecting the official qualified Top1000", "weights": {"AI": 0.3, "docking": 0.25, "ADMET_BBB": 0.25, "novelty": 0.1, "availability": 0.1}, "selection_constraints": {"unique_Murcko": true, "pairwise_Tanimoto_strictly_less_than": 0.55, "outside_official_AD_at_most": 1}, "old_scores_used_for_selection": false, "new_ADMET_or_docking_executed": false, "human_signoff": false, "quotation_or_purchase": false, "wet_experiment_scope": "computational screening, evidence integration and result verification", "global_final_top5_confirmed": false}
+RESULTS results\reproduction\results.csv
+

@@ -1,0 +1,20 @@
+{
+  "admet_ai": "2.0.0",
+  "chemprop": "2.3.1",
+  "torch": "2.14.0",
+  "checkpoint_sha256": {
+    "admet_classification\\model_0.pt": "f6a6ef3a03b575461e5a9af56092e811c8454b89aa39fb61927ac4214cabd644",
+    "admet_classification\\model_1.pt": "d3668a5ca83ef5f08bcb590f661321467b6994c1e90e8c1233ada06c2a4d802c",
+    "admet_classification\\model_2.pt": "6f250df229ed1b8d1e930ec3ddc683c34f86e80f41f7a053544cb13c24f22602",
+    "admet_classification\\model_3.pt": "cc8aa724a89901f422bdf748381be3778e9f4fdf18c0c117977895c67b0aae06",
+    "admet_classification\\model_4.pt": "41369917cad38a07db3b13702ad6d068f4f8e6671074d4e22f6e7b7abf64da80",
+    "admet_regression\\model_0.pt": "43e7c038dc2b0870852a68025af94efe9d48dc2387f2080a943a5cc3b2b2c302",
+    "admet_regression\\model_1.pt": "01ab0ec94a46894db0ae4412ab219e70e5f8a0a84a030e5d607888cc85dd4d47",
+    "admet_regression\\model_2.pt": "c6f4628cf45eef2ab9cbe754395c54f47dd1f02252e4333d7159c14e68e69439",
+    "admet_regression\\model_3.pt": "dea79cb7f96879d791d62902d8bd850566ce022585638a790387297200ae1a82",
+    "admet_regression\\model_4.pt": "be539bc4e886d628a4f3c4b64d2bca329371e71b5c443584e1a822976c10fa10"
+  },
+  "input": "RDKit canonical isomeric SMILES",
+  "num_workers": 0,
+  "default_physchem_and_drugbank_reference": true
+}

@@ -1,0 +1,83 @@
+{
+  "status": "COMPLETE",
+  "mode": "fresh_official_100k_scoring_with_frozen_downstream",
+  "model_version": "GPR84-ML-v3-official-1",
+  "model_sha256": "df5be03e49030ef885b24d1ed2854c2ae9fbc45858aadd298dd92af6e6328b1f",
+  "library_reference_sha256": "6075c5c3db76203a29ac39e05c2a37d28e117d9a45e6212a729ddcd2302fc2e5",
+  "immutable_files_verified": 106,
+  "candidate_ids": [
+    "GPR84-F01",
+    "GPR84-F02",
+    "GPR84-F03",
+    "GPR84-F04",
+    "GPR84-F05"
+  ],
+  "elapsed_seconds": 129.44128700000147,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "model_refitted": false,
+  "new_ADMET_or_docking_executed": false,
+  "global_final_top5_confirmed": false,
+  "independent_acceptance": false,
+  "evidence_summary": {
+    "model_version": "GPR84-ML-v3-official-1",
+    "qualified_top1000": 1000,
+    "basic_property_pass": 98531,
+    "structural_alert_evaluated": 2770,
+    "ADMET_available_in_current_top1000": 55,
+    "docking_available_in_current_top1000": 21,
+    "ADMET_missing_current_top1000": 945,
+    "ADMET_available_in_current_top300": 31,
+    "full_gate_evidence_covered": 11,
+    "provisional_candidate_count": 5,
+    "candidate_codes": [
+      "GPR84-F01",
+      "GPR84-F02",
+      "GPR84-F03",
+      "GPR84-F04",
+      "GPR84-F05"
+    ],
+    "candidate_library_ids": [
+      "ZSW_9A1E8B920EC6",
+      "ZSW_D26A2708DAE7",
+      "ZSW_76B5185FE874",
+      "ZSW_79351A0BEFED",
+      "ZSW_97B5CCE95CBB"
+    ],
+    "candidate_scope": "Complete-evidence subset intersecting the official qualified Top1000",
+    "weights": {
+      "AI": 0.3,
+      "docking": 0.25,
+      "ADMET_BBB": 0.25,
+      "novelty": 0.1,
+      "availability": 0.1
+    },
+    "selection_constraints": {
+      "unique_Murcko": true,
+      "pairwise_Tanimoto_strictly_less_than": 0.55,
+      "outside_official_AD_at_most": 1
+    },
+    "old_scores_used_for_selection": false,
+    "new_ADMET_or_docking_executed": false,
+    "human_signoff": false,
+    "quotation_or_purchase": false,
+    "wet_experiment_scope": "computational screening, evidence integration and result verification",
+    "global_final_top5_confirmed": false
+  },
+  "outputs_sha256": {
+    "current_top1000_evidence_coverage.csv": "5a5c37b73d1db5d3c19bd43eddc10156fe000b72f7beaf26ea814fd69d23b85e",
+    "current_top1000_missing_ADMET.csv": "b82d001d4117595bf228b57115ccc2d7929823e5c6f77a48608dcba97794868f",
+    "official_100k_scores.parquet": "af8063469f9204b4f1ede0608039ed1bbe4ca6c3a9ce8c5f8b6b3e9976e6e55e",
+    "official_alert_evaluations.csv": "a6bdd4f0739f60c6240907479711e1dcd55e3e48fec01ea635e401173431329a",
+    "official_evidence_covered_eligible_pool.csv": "206b19c06d6749da1aaf33c6e9aab371a79f35dfb336ad792ee156009ebb0e07",
+    "official_provisional_candidates.csv": "1e3036d0d5c71c78dfe4a31f58466a6b62726693f804def96ce284efc42daf2a",
+    "official_qualified_top1000.csv": "bbe85afe0cc4b1b8287f57a7669e663163dedc70d06354113ce81b81e799cbcb",
+    "official_scored_existing_docking_pool60.csv": "2000f985009a3483f167cd1909b6c5d638229576bb759e9101b56dbd7924db12",
+    "official_score_top1000.csv": "df7dfdfd669fe4a542c859a4f55135e6bf3c34db647ca1f43b7710f6be7fafb8",
+    "OFFICIAL_SCREEN_RECEIPT.json": "5b0c48d6131d6770a228d4816907073f5963ce4ff8bcd502e95ac2f00be5d695",
+    "results.csv": "9563460a56f594c8a4b47a71f1859cbda7be3ddbc840c5743f9a4c061cb63d66",
+    "SCREENING_INTEGRATION_SUMMARY.json": "992a7f22a1fb74d63396fc6de88e2c9803d7e412f65e2a3b0bb1c3278b33029c"
+  }
+}

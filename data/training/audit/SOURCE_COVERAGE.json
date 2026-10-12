@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "source": "ChEMBL",
+      "version": "37",
+      "records": 2070,
+      "new_record_ids": 0,
+      "status": "official_refresh_no_new_measurements"
+    },
+    {
+      "source": "IUPHAR",
+      "version": "\"# GtoPdb Version: 2026.3 - published: 2026-09-16\"",
+      "records": 24,
+      "status": "same_2026.3_release_as_existing_snapshot; previously_known_structure_excluded"
+    },
+    {
+      "source": "PubChem",
+      "records": 139,
+      "status": "all_target_gene_assay_descriptions_audited; AID2202538 intervals reconstructed from primary Table19"
+    },
+    {
+      "source": "BindingDB",
+      "status": "direct_endpoint_certificate_expired; current patent evidence obtained through PubChem BindingDB depositor plus primary patent; previous Q9NQS5 snapshot retained"
+    }
+  ],
+  "literature_records": 64,
+  "search_date": "2026-10-03",
+  "limits": "Coverage is of retrieved public sources, not proof that no other eligible data exist; unresolved source/structure/assay pairs remain excluded."
+}

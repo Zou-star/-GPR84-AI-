@@ -1,0 +1,30 @@
+name: 运行或复现问题
+description: 提交可复核的错误信息与运行环境
+title: "[复现] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Python 版本与操作系统
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 运行命令与最小复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期结果与实际错误
+      description: 请移除个人信息、密钥和受限数据。
+    validations:
+      required: true

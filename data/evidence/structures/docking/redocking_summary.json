@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rmsd_threshold_A": 2.5,
+  "original_threshold_A": 2.0,
+  "passes_original_threshold": true,
+  "posthoc_threshold_change": true,
+  "min_rmsd_A": 1.102082412007895,
+  "chosen_attempt": 1,
+  "native_atom_mapping_rmsd_A": 0.0,
+  "all_seeds_top1_pass_original_2A": true,
+  "correction": "Meeko SMILES atom indices mapped to the REMARK SMILES graph; no ligand superposition before RMSD",
+  "historical_reported_min_rmsd_A_invalid": 2.2271359736891503,
+  "cached_redocking_poses_reused": true,
+  "seeds": [
+    42,
+    31415,
+    271828
+  ],
+  "vina_version": "1.2.7",
+  "source_structure_sha256": "724a4f02a24847395e06a9fca5a709ef1038b7a02c22c71e2a8b0cfe7fe031a4",
+  "box_center_A": [
+    139.816,
+    131.732,
+    192.184
+  ],
+  "box_size_A": [
+    19.901,
+    24.189,
+    18.0
+  ]
+}
